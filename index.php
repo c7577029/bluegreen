@@ -13,7 +13,7 @@ header('Content-Type: image/png');
 imagePNG($im, './imagefilledrectangle.png');
 imagedestroy($im);
 
-$im2 = imagecreatefrompng('two.png');
-imagepng($im2);
+$im2 = imagecreatefromjpeg('two.jpg');
+imagePNG($im2, './hello.png');
 imagedestroy($im2);
 ?>
