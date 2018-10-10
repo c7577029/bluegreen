@@ -12,4 +12,8 @@ imagefilledrectangle($im, 0, 0, 199, 199, $green);
 header('Content-Type: image/png');
 imagePNG($im, './imagefilledrectangle.png');
 imagedestroy($im);
+
+$im2 = imagecreatefrompng('two.jpg');
+imagepng($im2);
+imagedestroy($im2);
 ?>
