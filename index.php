@@ -17,4 +17,8 @@ imagedestroy($im);
 $im2 = imagecreatefromjpeg('two.jpg');
 imagePNG($im2, './hello.png');
 imagedestroy($im2);
+
+echo "<a href="./Gary.png">Click here</a>";
+echo "<a href="./Edited/Gary.png">Click here</a>";
+
 ?>
